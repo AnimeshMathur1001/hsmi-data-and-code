@@ -1,0 +1,34 @@
+Baseline SAW    {'India': 4.56, 'USA': 7.48, 'Europe': 8.28, 'Canada': 7.58, 'Japan': 7.89}
+Baseline TOPSIS {'India': 0.071, 'USA': 0.695, 'Europe': 0.829, 'Canada': 0.756, 'Japan': 0.634}
+
+moderate (concentration 100, score shift +/-1.0), SAW
+rank:               1       2       3       4       5
+India          0.000   0.000   0.000   0.000   1.000
+USA            0.003   0.086   0.356   0.555   0.000
+Europe         0.882   0.110   0.008   0.000   0.000
+Canada         0.012   0.188   0.435   0.365   0.000
+Japan          0.103   0.616   0.201   0.080   0.000
+
+moderate (concentration 100, score shift +/-1.0), TOPSIS
+rank:               1       2       3       4       5
+India          0.000   0.000   0.000   0.000   1.000
+USA            0.005   0.185   0.551   0.259   0.000
+Europe         0.892   0.101   0.007   0.000   0.000
+Canada         0.092   0.605   0.228   0.075   0.000
+Japan          0.011   0.109   0.215   0.666   0.000
+
+wide (concentration 30, score shift +/-2.0), SAW
+rank:               1       2       3       4       5
+India          0.000   0.000   0.000   0.000   1.000
+USA            0.064   0.186   0.329   0.421   0.000
+Europe         0.628   0.244   0.097   0.031   0.000
+Canada         0.115   0.241   0.306   0.338   0.000
+Japan          0.193   0.329   0.268   0.210   0.000
+
+wide (concentration 30, score shift +/-2.0), TOPSIS
+rank:               1       2       3       4       5
+India          0.000   0.000   0.000   0.002   0.997
+USA            0.082   0.228   0.380   0.310   0.000
+Europe         0.613   0.256   0.104   0.026   0.000
+Canada         0.213   0.334   0.268   0.185   0.001
+Japan          0.091   0.183   0.248   0.476   0.002
