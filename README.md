@@ -1,6 +1,6 @@
 # HSMI: scoring data and robustness analysis
 
-Data and code supporting the manuscript "Hydrogen Refueling Station Safety Maturity Assessment: An Integrated Incident, Regulatory, and Multi-Criteria Decision Framework".
+Data and code supporting the manuscript "Hydrogen Refueling Station Safety Maturity Index: Incident-Informed Benchmarking of Five Jurisdictions".
 
 ## Contents
 
@@ -10,6 +10,8 @@ Data and code supporting the manuscript "Hydrogen Refueling Station Safety Matur
 | `data/HSMI_scoring_workbook.xlsx` | Same scores with the SAW, TOPSIS and sensitivity results as in the manuscript |
 | `hsmi_montecarlo.py` | Monte Carlo rank-acceptability analysis |
 | `results/rank_acceptability.csv` | Probability of each jurisdiction holding each rank |
+| `hsmi_policy_scenario.py` | SAW score and TOPSIS closeness coefficient of India under the policy scenario |
+| `results/policy_scenario.csv` | Output of the policy scenario script |
 | `results/run_log.txt` | Console output of the run reported in the manuscript |
 
 ## Method
@@ -28,6 +30,7 @@ A higher concentration keeps the sampled weights closer to the baseline. The ran
 ```
 pip install -r requirements.txt
 python hsmi_montecarlo.py
+python hsmi_policy_scenario.py
 ```
 
 Options: `--data`, `--out`, `--draws`, `--seed`.
