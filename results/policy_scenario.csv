@@ -1,0 +1,4 @@
+scenario,India_SAW,India_TOPSIS_CC,India_SAW_rank,India_TOPSIS_rank
+baseline,4.56,0.071,5,5
+low,5.36,0.212,5,5
+high,5.66,0.283,5,5
